@@ -1,0 +1,29 @@
+body {
+    width: 200px;
+    height: 200px;
+    border: solid black;
+}
+
+#num1,
+#num2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+#operadores {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#menos,
+#mas,
+#mult,
+#div {
+    height: 30px;
+    width: 30px;
+}

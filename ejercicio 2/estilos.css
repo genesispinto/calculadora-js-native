@@ -1,0 +1,25 @@
+    #producto1,
+    #producto2,
+    #producto3,
+    #producto4 {
+        width: 300px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: auto;
+        margin: 50px;
+    }
+    
+    div {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    img {
+        border-radius: 50%;
+        box-shadow: 0 0 15px rgb(190, 82, 82);
+        margin-bottom: 20px;
+    }
+    
+    #carro {
+        display: inline;
+    }
